@@ -8,7 +8,7 @@ var welcomeMessage = "It works! " + click;
 //output
 alert(welcomeMessage);*/
 var btnTranslate = document.querySelector("#btn-translate");
-btnTranslate.addEventListener("click", clickHandler());
 function clickHandler() {
   console.log("Clicked!");
 }
+btnTranslate.addEventListener("click", clickHandler());
