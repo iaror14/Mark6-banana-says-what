@@ -14,3 +14,8 @@ function clickHandler() {
 }
 btnTranslate.addEventListener("click", clickHandler());
 var txtInput = document.querySelector("#txt-input");
+
+/*document.querySelector("textarea");
+document.querySelector(".btn-primay");
+document.querySelector("#input-btn");
+input[(n ame = "translator")];*/
