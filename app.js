@@ -9,7 +9,8 @@ var welcomeMessage = "It works! " + click;
 alert(welcomeMessage);*/
 var btnTranslate = document.querySelector("#btn-translate");
 function clickHandler() {
-  console.log("Clicked!");
+  //create a function to ensure it can be called later to an event
+  console.log("Clicked!"); //define what the function will do when it's called in the second fucntion!
   console.log("input", txtInput.value);
 }
 btnTranslate.addEventListener("click", clickHandler());
@@ -18,4 +19,4 @@ var txtInput = document.querySelector("#txt-input");
 /*document.querySelector("textarea");
 document.querySelector(".btn-primay");
 document.querySelector("#input-btn");
-input[(n ame = "translator")];*/
+document.querySelector(input[name = "translator"]);*/
