@@ -14,7 +14,14 @@ function clickHandler() {
   console.log("input", txtInput.value);
 }
 btnTranslate.addEventListener("click", clickHandler());
-var txtInput = document.querySelector("#txt-input");
+var txtInput = document.querySelector(".txt-input");
+
+var outputDiv = document.querySelector(".output");
+outputDiv.innerText = "Isha Arora";
+
+function clickHandler() {
+  outputDiv.innerText = "blahblahblah" + txtInput.value;
+}
 
 /*document.querySelector("textarea");
 document.querySelector(".btn-primay");
