@@ -26,7 +26,7 @@ function getTranslation(text) {
 function clickHandler() {
   //create a function to ensure it can be called later to an event
   var inputText = txtInput.value; //wasn't working becuase this was outside of the function, should have been inside only!
-  //console.log("Clicked!"); //define what the function will do when it's called in the second fucntion!
+  console.log("Clicked!");
   fetch(getTranslation(inputText))
     .then((response) => response.json())
     .then((json) => {
