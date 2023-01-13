@@ -21,8 +21,9 @@ function clickHandler() {
 }
 btnTranslate.addEventListener("click", clickHandler);
 
-var outputDiv = document.querySelector(".output");
-//outputDiv.innerText = "Isha Arora";
+var outputDiv = document.querySelector("#output-div");
+console.log(outputDiv);
+outputDiv.innerText = "Isha Arora";
 
 //function clickHandler() {
 //outputDiv.innerText = "blahblahblah" + txtInput.value;

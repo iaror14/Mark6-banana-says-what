@@ -43,14 +43,15 @@ img {
   display: block;
   margin: auto;
 }
-.text-input {
-  text-align: center;
-  font-size: large;
-  font-weight: bold;
-}
 h3 {
   font-size: larger;
 }
 textarea {
   width: 700px;
+}
+#output-div,
+.text-input {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
 }
