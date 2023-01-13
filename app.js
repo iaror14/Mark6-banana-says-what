@@ -8,13 +8,18 @@ var welcomeMessage = "It works! " + click;
 //output
 alert(welcomeMessage);*/
 var btnTranslate = document.querySelector("#btn-translate");
+console.log(btnTranslate);
+
+var txtInput = document.querySelector("#txt-input");
+console.log(txtInput);
+
+//temp1.addEventListener('click', function eventHandler() { console.log('clicked')})  - tried in console
 function clickHandler() {
   //create a function to ensure it can be called later to an event
   console.log("Clicked!"); //define what the function will do when it's called in the second fucntion!
   console.log("input", txtInput.value);
 }
 btnTranslate.addEventListener("click", clickHandler());
-var txtInput = document.querySelector(".txt-input");
 
 var outputDiv = document.querySelector(".output");
 outputDiv.innerText = "Isha Arora";
