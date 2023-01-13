@@ -19,14 +19,14 @@ function clickHandler() {
   console.log("Clicked!"); //define what the function will do when it's called in the second fucntion!
   console.log("input", txtInput.value);
 }
-btnTranslate.addEventListener("click", clickHandler());
+btnTranslate.addEventListener("click", clickHandler);
 
 var outputDiv = document.querySelector(".output");
-outputDiv.innerText = "Isha Arora";
+//outputDiv.innerText = "Isha Arora";
 
-function clickHandler() {
-  outputDiv.innerText = "blahblahblah" + txtInput.value;
-}
+//function clickHandler() {
+//outputDiv.innerText = "blahblahblah" + txtInput.value;
+//}
 
 /*document.querySelector("textarea");
 document.querySelector(".btn-primay");
