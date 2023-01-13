@@ -16,19 +16,17 @@ console.log(txtInput);
 //temp1.addEventListener('click', function eventHandler() { console.log('clicked')})  - tried in console
 function clickHandler() {
   //create a function to ensure it can be called later to an event
-  console.log("Clicked!"); //define what the function will do when it's called in the second fucntion!
-  console.log("input", txtInput.value);
+  //console.log("Clicked!"); //define what the function will do when it's called in the second fucntion!
+  //console.log("input", txtInput.value);
+  outputDiv.innerText = "blahblahblah  " + txtInput.value;
 }
 btnTranslate.addEventListener("click", clickHandler);
 
 var outputDiv = document.querySelector("#output-div");
 console.log(outputDiv);
-outputDiv.innerText = "Isha Arora";
+outputDiv.innerText;
 
-//function clickHandler() {
-//outputDiv.innerText = "blahblahblah" + txtInput.value;
-//}
-
+//Exercise responses!
 /*document.querySelector("textarea");
 document.querySelector(".btn-primay");
 document.querySelector("#input-btn");
